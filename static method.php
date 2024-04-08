@@ -34,3 +34,18 @@ $obj=new BMW();
 $obj->car();
 
 ?>
+<?php
+class bike
+{
+    public static $name="hero";                  //it's is the parameter type.
+    
+
+}
+class next extends bike{
+    function __construct()
+    {
+        echo "<br>the next bike is :".parent::$name;
+    }
+}
+$obj=new next();
+?>
