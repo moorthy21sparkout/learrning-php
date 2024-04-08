@@ -8,7 +8,8 @@ class car
     function __construct()
 
     {
-      echo "the car name is : .self :: display()"    }
+      echo "the car name is" : .self :: display();   
+        }
     
   }
 $obj=new car();
